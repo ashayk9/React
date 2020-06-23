@@ -1,0 +1,15 @@
+.btn{
+    border-radius: 5px;
+    border:1px solid black;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  .btn-danger{
+      background: rgba(240, 12, 12, 0.9);
+  }
+  .btn-primary{
+      background-color: aqua;
+  }
+  .card{
+      margin:20px;
+  }

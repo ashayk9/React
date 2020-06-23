@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  
+}
+
+div{
+  margin:10px;
+}
+.App-header { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10px;
+  
+  color: white;
+}
+main{
+  margin: 15px;
+  padding: 15px;
+}
+.searchbar{
+  display: inline block;
+  width: 80%;
+  font-size: 20px;
+  border-radius: 8px;
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  transition: 0.2s ease-in;
+}
+.searchbar:focus{
+  border: cadetblue 2px solid;
+}
+.btn{
+  border-radius: 8px;
+  font-size: 20px;
+  background-color: white;
+  display: inline block;
+  height: 50px;
+  padding: 10px;
+  cursor: pointer;
+ 
+}
+.result{
+  display: grid; 
+  
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  
+  grid-gap: 1rem;
+  color:white;
+}
+.result img{
+  display: block;
+  width: 100%;
+}
+.eachresult:hover{
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+.popup{
+  color: white;
+  position: fixed;
+  margin:0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #444444;
+  /* display: none; */
+
+}
